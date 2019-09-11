@@ -8,6 +8,11 @@
     - https://github.com/ogis-yamagishi/jetbot/blob/relearn/notebooks/collision_avoidance/data_collection.ipynb
 - [road_following](https://github.com/igakilab/jetbot/tree/master/notebooks/road_following) のdata_collection.ipynbをゲームパッドを利用せずに，画面のSaveボタンをクリックして画像を記録するように変更した
 
+## これまでの知見
+- 有線環境（電源及びLAN）を必ず用意し，学習時は有線環境で実施すること
+  - 無線はデモ走行のみ
+- メモリ消費量は常に確認する．80%を定常的に超えるようなら一度再起動すると良い
+
 ## デモ動画
 ### Collision Avoidance
 - ソースコード：https://github.com/igakilab/jetbot/tree/master/notebooks/collision_avoidance
